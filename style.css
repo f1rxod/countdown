@@ -16,6 +16,24 @@
     gap: 50px;
     justify-content: center;
 }
+.custom{
+    text-align: center;
+    margin-top: 40px;
+}
+.custom input{
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    font-size: x-large;
+}
+.custom input:nth-child(-n+3){
+    margin-right: 50px;
+}
+.submit button{
+    margin-top: 50px;
+    padding: 15px 30px;
+    font-size: large;
+}
 .time p{
     margin-top: -20px;
     letter-spacing: 5px;
@@ -33,10 +51,10 @@
     justify-content: center;
     gap: 50px;
     bottom: 0;
-    height: 197px;
+    height: 150px;
 }
 .botom a{
-    margin-top: 100px;
+    margin-top: 70px;
 }
 .botom img{
     width: 32px;
@@ -62,6 +80,12 @@ p{
 @media only screen and (max-width:767px){
     .time{
         display: flex;
+    }
+    .botom{
+        height: 100px;
+    }
+    .botom a{
+        margin-top: 40px;
     }
     .day_text, .hours_text, .minutes_text, .seconds_text{
         padding: 10px;

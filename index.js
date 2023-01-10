@@ -8,22 +8,22 @@ var x = setInterval(function() {
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     if(days<10){
-        document.querySelector('.day_text').innerHTML = '0'+days
+        document.querySelector('.day_text').innerHTML = '0' + days
     } else{
         document.querySelector('.day_text').innerHTML = days
     }
     if(hours<10){
-        document.querySelector('.hours_text').innerHTML = '0'+hours
+        document.querySelector('.hours_text').innerHTML = '0' + hours
     } else{
         document.querySelector('.hours_text').innerHTML = hours   
     }
     if(minutes<10){
-        document.querySelector('.minutes_text').innerHTML = '0'+minutes
+        document.querySelector('.minutes_text').innerHTML = '0' + minutes
     } else{
         document.querySelector('.minutes_text').innerHTML = minutes
     }
     if(seconds<10){
-        document.querySelector('.seconds_text').innerHTML = '0'+seconds
+        document.querySelector('.seconds_text').innerHTML = '0' + seconds
     }else{
         document.querySelector('.seconds_text').innerHTML = seconds
     }
